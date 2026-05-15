@@ -12,31 +12,28 @@
             <div class="box1">
                 <img src="image/neom-gOqBe7ropxM-unsplash.jpg" alt="an exploration image" height="150">
             </div>
-            <div class="box2">
-
-            </div>
         </div>
         <div class="right-hero">
             <h2>Open Your Free Account in Seconds and Dive in</h2>
             <p>Create your free account and enjoy fast, seamless access to powerful features designed to get you started instantly. Already have an account? <a href="">Log in</a></p>
-            <form action="">
+            <form action="#" method="post">
                 <label for="name">Username</label><br>
-                <input type="text"><br>
+                <input id="name" type="text" placeholder="Username" required><br>
                 <label for="email">Email</label><br>
-                <input type="email"><br>
+                <input id="email" type="email" placeholder="Enter your email" required autocomplete="email" ><br>
                 <label id="mypassword" for="password">Password</label><br>
-                <input type="password">
+                <input id="password" type="password" placeholder="Password" required >
 
                 <ul>
                     <li>One uppercase character</li>
                     <li>One lowercase character</li>
                     <li>One number</li>
                     <li>One special character</li>
-                    <li>12 characters minimun</li>
+                    <li>12 characters minimum</li>
                 </ul>
 
                 <div class="ending-box">
-                    <button>Get Started!</button>
+                    <button type="submit">Get Started!</button>
                     <p>By clicking this button you agree to our <a href="">terms of use & policies</a></p>
                 </div>
             </form>
