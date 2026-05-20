@@ -22,3 +22,10 @@
     height: 60px;
     padding: 20px;
 }
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
